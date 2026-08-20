@@ -3950,7 +3950,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 95.25) (xy 53.34 95.25)
+			(xy 77.47 95.25) (xy 53.34 95.25)
 		)
 		(stroke
 			(width 0)
@@ -4770,7 +4770,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 110.49) (xy 67.31 110.49)
+			(xy 77.47 110.49) (xy 67.31 110.49)
 		)
 		(stroke
 			(width 0)
@@ -6399,7 +6399,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Screw_Terminal_01x02"
+		(property "Value" "BATTERY_12V"
 			(at 77.47 100.3299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7028,7 +7028,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 90.17 110.49 0)
+		(at 82.55 110.49 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7039,7 +7039,7 @@
 		(fields_autoplaced yes)
 		(uuid "4b7ba950-dc08-4567-81f4-92c32172cf9e")
 		(property "Reference" "J10"
-			(at 92.71 109.2199 0)
+			(at 85.09 109.2199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7049,8 +7049,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x01"
-			(at 92.71 111.7599 0)
+		(property "Value" "MP1584_5V_IN-"
+			(at 85.09 111.7599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7061,7 +7061,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 90.17 110.49 0)
+			(at 82.55 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7072,7 +7072,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 90.17 110.49 0)
+			(at 82.55 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7083,7 +7083,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 90.17 110.49 0)
+			(at 82.55 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7127,7 +7127,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Screw_Terminal_01x02"
+		(property "Value" "MOTOR"
 			(at 120.65 158.496 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7929,7 +7929,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 90.17 95.25 0)
+		(at 82.55 95.25 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7940,7 +7940,7 @@
 		(fields_autoplaced yes)
 		(uuid "763a4462-7cd9-41ec-b250-9cfeb8167830")
 		(property "Reference" "J7"
-			(at 92.71 93.9799 0)
+			(at 85.09 93.9799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7950,8 +7950,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x01"
-			(at 92.71 96.5199 0)
+		(property "Value" "MP1584_5V_IN+"
+			(at 85.09 96.5199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7962,7 +7962,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 90.17 95.25 0)
+			(at 82.55 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7973,7 +7973,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 90.17 95.25 0)
+			(at 82.55 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7984,7 +7984,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 90.17 95.25 0)
+			(at 82.55 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8438,7 +8438,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x01"
+		(property "Value" "MP1584_5V_OUT-"
 			(at 120.65 111.7599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8837,7 +8837,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x01"
+		(property "Value" "MP1584_5V_OUT+"
 			(at 120.65 96.5199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9071,7 +9071,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_02x04_Row_Letter_First"
+		(property "Value" "nRF24L01"
 			(at 151.384 66.802 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9292,7 +9292,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x03"
+		(property "Value" "SERVO"
 			(at 151.13 102.8699 0)
 			(show_name no)
 			(do_not_autoplace no)
