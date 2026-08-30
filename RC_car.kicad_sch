@@ -6565,7 +6565,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-2.54mm_2pol_Vertical"
+		(property "Footprint" "TerminalBlock:TerminalBlock_ARK-2P_P5.00mm"
 			(at 74.93 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -7293,7 +7293,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-2.54mm_2pol_Vertical"
+		(property "Footprint" "TerminalBlock:TerminalBlock_ARK-2P_P5.00mm"
 			(at 129.54 152.4 0)
 			(hide yes)
 			(show_name no)
