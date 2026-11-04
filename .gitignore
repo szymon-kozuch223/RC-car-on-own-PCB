@@ -1,5 +1,5 @@
 *.kicad_prl
 ~*.lck
 .history/
-RC_car_v2.*
-RC_car_opt.*
+RC_car_v2*
+RC_car_opt*
