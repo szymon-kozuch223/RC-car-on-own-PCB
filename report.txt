@@ -1,0 +1,1 @@
+Zmieniono footprint A1 z 'Module:Arduino_Nano' na 'Module:Arduino_Nano': : OK
