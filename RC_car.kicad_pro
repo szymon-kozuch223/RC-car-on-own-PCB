@@ -567,6 +567,14 @@
       {
         "netclass": "12V",
         "pattern": "Net-(D6-K)"
+      },
+      {
+        "netclass": "12V",
+        "pattern": "Net-(D5-K)"
+      },
+      {
+        "netclass": "12V",
+        "pattern": "Net-(D7-K)"
       }
     ]
   },
