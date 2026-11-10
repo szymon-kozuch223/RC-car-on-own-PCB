@@ -420,7 +420,7 @@
 			)
 		)
 		(property "Value" "SERVO"
-			(at 0 7.46 0)
+			(at 0 7.58 180)
 			(layer "F.Fab")
 			(uuid "ffcb1c10-3b52-4b61-aa51-b2686bae7257")
 			(effects
@@ -661,7 +661,7 @@
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R3"
-			(at 7.58 2.5 0)
+			(at 5.58 2.5 0)
 			(layer "F.SilkS")
 			(uuid "cf4da88b-ad77-4031-b130-7e244b357360")
 			(effects
@@ -672,7 +672,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 5.08 2.37 0)
+			(at 2.58 2.5 0)
 			(layer "F.Fab")
 			(uuid "138187b0-361d-4166-8bd2-8ba89e5e669d")
 			(effects
@@ -2452,7 +2452,7 @@
 		(descr "Diode, DO-201AD series, Axial, Horizontal, pin pitch=15.24mm, length*diameter=9.5*5.2mm^2, http://www.diodes.com/_files/packages/DO-201AD.pdf")
 		(tags "Diode DO-201AD series Axial Horizontal pin pitch 15.24mm  length 9.5mm diameter 5.2mm")
 		(property "Reference" "D7"
-			(at 7.92 -4 0)
+			(at 5.12 -3.5 0)
 			(layer "F.SilkS")
 			(uuid "3c0bbedd-035b-4857-ad0c-75dc383435e0")
 			(effects
@@ -2463,7 +2463,7 @@
 			)
 		)
 		(property "Value" "SS34"
-			(at 7.92 -2.5 0)
+			(at 9.12 -3.5 0)
 			(layer "F.Fab")
 			(uuid "ceb43a86-1d8f-4ad1-94f6-a145e24e84da")
 			(effects
@@ -2728,7 +2728,7 @@
 		(descr "C, Disc series, Radial, pin pitch=5.00mm, diameter*width=5*2.5mm^2, Capacitor, http://cdn-reichelt.de/documents/datenblatt/B300/DS_KERKO_TC.pdf")
 		(tags "C Disc series Radial pin pitch 5.00mm diameter 5mm width 2.5mm Capacitor")
 		(property "Reference" "C10"
-			(at 2.5 -2.5 0)
+			(at -3.5 -1 0)
 			(layer "F.SilkS")
 			(uuid "f3ccdcfc-8371-4da6-bda5-14afa7e668f0")
 			(effects
@@ -2739,7 +2739,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 2.5 2.5 0)
+			(at -3.5 0.5 0)
 			(layer "F.Fab")
 			(uuid "edd38173-f28a-4691-800c-739a50d0e6fa")
 			(effects
@@ -2928,7 +2928,7 @@
 		(descr "Through hole straight socket strip, 2x04, 2.54mm pitch, double rows (from Kicad 4.0.7), script generated")
 		(tags "Through hole socket strip THT 2x04 2.54mm double row")
 		(property "Reference" "J1"
-			(at 2.36 7.32 0)
+			(at 2.06 13.12 0)
 			(layer "F.SilkS")
 			(uuid "10002b6c-5db0-4d64-b8e5-98a3bb5da30c")
 			(effects
@@ -2939,7 +2939,7 @@
 			)
 		)
 		(property "Value" "nRF24L01"
-			(at -1.27 10.39 0)
+			(at -1.44 10.12 180)
 			(layer "F.Fab")
 			(uuid "fbfd266f-d63a-4f81-b122-0bce5678250c")
 			(effects
@@ -3166,7 +3166,7 @@
 			(uuid "a8343cb4-bf5d-45fc-a081-39a7fe8cc455")
 		)
 		(fp_text user "${REFERENCE}"
-			(at -1.27 3.81 90)
+			(at -0.94 -2.38 180)
 			(layer "F.Fab")
 			(uuid "b6fb4a5c-ee50-460c-8640-cb0554907122")
 			(effects
@@ -3284,7 +3284,7 @@
 		(descr "TO-220-15, Vertical, RM 1.27mm, Multiwatt-15, staggered type-1, see http://www.st.com/resource/en/datasheet/l298.pdf")
 		(tags "TO-220-15 Vertical RM 1.27mm Multiwatt-15 staggered type-1")
 		(property "Reference" "U2"
-			(at 8.89 -10.53 0)
+			(at 20.31 -6.58 0)
 			(layer "F.SilkS")
 			(uuid "64b99afe-1645-4be4-aace-081935f4ab91")
 			(effects
@@ -5204,7 +5204,7 @@
 		(property "Reference" "C6"
 			(at 4.5 4.5 0)
 			(layer "F.SilkS")
-			(uuid "c3afd826-64af-44c2-8305-8472f9e33f22")
+			(uuid "5b1e8221-b5ad-42b5-9ce3-15840f996428")
 			(effects
 				(font
 					(size 1 1)
@@ -5213,9 +5213,9 @@
 			)
 		)
 		(property "Value" "100u"
-			(at 5.5 5.5 0)
+			(at 5.5 6 0)
 			(layer "F.Fab")
-			(uuid "a7848e80-087b-4113-ad67-a13b512e803c")
+			(uuid "6e32f015-e9f2-49d8-b9cd-4354f1c05c7e")
 			(effects
 				(font
 					(size 1 1)
@@ -5227,7 +5227,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7b9edc6e-e797-44d4-be32-b0357e7df039")
+			(uuid "630f15b2-7f2e-43bc-aefe-9ddcc83236d9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5238,7 +5238,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "74688d9b-984b-4c15-aac9-0d77be84a5eb")
+			(uuid "25a9d67b-6bf0-4c14-a42c-a3db7fcb1dc6")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7700,7 +7700,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 4 2.5 90)
+			(at 2.5 2.5 90)
 			(layer "F.Fab")
 			(uuid "e2b589e1-96cc-409d-a073-9cba08063916")
 			(effects
@@ -9631,7 +9631,7 @@
 		(descr "terminal block RND 205-00001, 2 pins, pitch 5mm, size 10x9mm, drill diameter 1.3mm, pad diameter 2.5mm, http://cdn-reichelt.de/documents/datenblatt/C151/RND_205-00001_DB_EN.pdf")
 		(tags "THT terminal block RND 205-00001 pitch 5mm size 10x9mm drill 1.3mm pad 2.5mm")
 		(property "Reference" "J3"
-			(at 2.5 -6.12 90)
+			(at -2.5 -6 90)
 			(layer "F.SilkS")
 			(uuid "7f82b6b7-f4dc-461a-b55d-987aa3c36282")
 			(effects
@@ -9642,7 +9642,7 @@
 			)
 		)
 		(property "Value" "BATTERY_12V"
-			(at 8.5 -6 90)
+			(at 4 -6 90)
 			(layer "F.Fab")
 			(uuid "2bc06ce7-c500-44b8-9f5b-ea6e751dc847")
 			(effects
@@ -9948,7 +9948,7 @@
 			(uuid "5bb11c33-b02f-4d16-972b-6e245dd07f27")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 2.5 -6.12 90)
+			(at 2.5 -1 90)
 			(layer "F.Fab")
 			(uuid "5286c087-a39c-481e-8542-55d62a4ff2dd")
 			(effects
@@ -10459,7 +10459,7 @@
 		(descr "C, Disc series, Radial, pin pitch=5.00mm, diameter*width=5*2.5mm^2, Capacitor, http://cdn-reichelt.de/documents/datenblatt/B300/DS_KERKO_TC.pdf")
 		(tags "C Disc series Radial pin pitch 5.00mm diameter 5mm width 2.5mm Capacitor")
 		(property "Reference" "C9"
-			(at 0.5 -4 90)
+			(at 7.5 -1 90)
 			(layer "F.SilkS")
 			(uuid "a8aaf9f9-ebdf-4b12-96db-507f7ef52562")
 			(effects
@@ -10470,7 +10470,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 0 -2.5 90)
+			(at 8.5 0.5 90)
 			(layer "F.Fab")
 			(uuid "37dd46bd-2488-4601-9bba-94abf554598a")
 			(effects
@@ -11140,7 +11140,7 @@
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R4"
-			(at 5.18 2.2 90)
+			(at 3.38 2 90)
 			(layer "F.SilkS")
 			(uuid "d44079a4-f0a9-4d78-8a76-50de9b253ab1")
 			(effects
@@ -11151,7 +11151,7 @@
 			)
 		)
 		(property "Value" "0R1"
-			(at 5.08 -2.3 90)
+			(at 6.38 2 90)
 			(layer "F.Fab")
 			(uuid "6c399e9e-6714-41cc-88c4-8bec5ebdde39")
 			(effects
@@ -11331,7 +11331,7 @@
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R1"
-			(at 5.58 2.5 0)
+			(at 5.08 -2.5 0)
 			(layer "F.SilkS")
 			(uuid "e0ba5cc6-e214-49b5-8ab0-e3f37d9c998a")
 			(effects
@@ -11342,7 +11342,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 5.58 4 0)
+			(at 5.08 2.5 0)
 			(layer "F.Fab")
 			(uuid "08134749-1505-4e6c-8d87-a34b7c48a310")
 			(effects
@@ -11701,7 +11701,7 @@
 		(descr "terminal block RND 205-00001, 2 pins, pitch 5mm, size 10x9mm, drill diameter 1.3mm, pad diameter 2.5mm, http://cdn-reichelt.de/documents/datenblatt/C151/RND_205-00001_DB_EN.pdf")
 		(tags "THT terminal block RND 205-00001 pitch 5mm size 10x9mm drill 1.3mm pad 2.5mm")
 		(property "Reference" "J2"
-			(at 2.5 -6.12 90)
+			(at 0 -6.12 90)
 			(layer "F.SilkS")
 			(uuid "f343ecfc-52da-43b6-9385-01de366dc989")
 			(effects
@@ -11712,7 +11712,7 @@
 			)
 		)
 		(property "Value" "MOTOR"
-			(at 6 -6 90)
+			(at 4 -6 90)
 			(layer "F.Fab")
 			(uuid "1c8dcd96-9b9a-4eab-9bb7-bfebc5620fb6")
 			(effects
@@ -12018,7 +12018,7 @@
 			(uuid "622e5b82-8e8d-4be8-b253-cd5f76a88ff0")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 2.5 -6.12 90)
+			(at 2.5 -1 90)
 			(layer "F.Fab")
 			(uuid "58b11518-f0c7-4337-87f1-a47511dc30e8")
 			(effects
@@ -12451,7 +12451,7 @@
 			(uuid "d6eb38c3-edff-4222-a987-b0c4ad5a692c")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 3.81 0)
+			(at -2.5 4.12 0)
 			(layer "F.Fab")
 			(uuid "6d4dc2a4-5697-497c-9e27-3f37b02c5113")
 			(effects
@@ -14267,7 +14267,7 @@
 		(descr "Diode, DO-201AD series, Axial, Horizontal, pin pitch=15.24mm, length*diameter=9.5*5.2mm^2, http://www.diodes.com/_files/packages/DO-201AD.pdf")
 		(tags "Diode DO-201AD series Axial Horizontal pin pitch 15.24mm  length 9.5mm diameter 5.2mm")
 		(property "Reference" "D8"
-			(at 7.62 -3.72 0)
+			(at 10.12 -4 0)
 			(layer "F.SilkS")
 			(uuid "528ed7f0-302a-402b-80a0-7f12d7ab03a6")
 			(effects
@@ -14278,7 +14278,7 @@
 			)
 		)
 		(property "Value" "SS34"
-			(at 7.52 -5.1 0)
+			(at 6.12 -4 0)
 			(layer "F.Fab")
 			(uuid "2a3479ab-8dcd-4995-b1a6-049ac3ac23f5")
 			(effects
@@ -14819,7 +14819,7 @@
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R2"
-			(at 10.08 2 0)
+			(at 5.58 -2.5 0)
 			(layer "F.SilkS")
 			(uuid "2d2f4f39-570a-491a-9dea-97f9162f708e")
 			(effects
@@ -14830,7 +14830,7 @@
 			)
 		)
 		(property "Value" "4k7"
-			(at 7.58 2 0)
+			(at 2.58 -2.5 0)
 			(layer "F.Fab")
 			(uuid "7c73a818-00e6-43e9-8c16-0d008131365e")
 			(effects
@@ -17134,7 +17134,7 @@
 		(descr "C, Disc series, Radial, pin pitch=5.00mm, diameter*width=5*2.5mm^2, Capacitor, http://cdn-reichelt.de/documents/datenblatt/B300/DS_KERKO_TC.pdf")
 		(tags "C Disc series Radial pin pitch 5.00mm diameter 5mm width 2.5mm Capacitor")
 		(property "Reference" "C7"
-			(at 2.5 2.5 0)
+			(at 2.5 -2.5 0)
 			(layer "F.SilkS")
 			(uuid "a676c853-5f61-467f-96a0-543efc4d5d20")
 			(effects
@@ -17145,7 +17145,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 2.5 4 0)
+			(at 2.5 2.5 0)
 			(layer "F.Fab")
 			(uuid "b270c9d6-9d6e-48d6-be6c-34a58b6bcc83")
 			(effects
